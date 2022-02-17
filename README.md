@@ -1,5 +1,5 @@
 # Mary Calendar
-My interpretation of a Biblical Hebrew calendar. Designed to work solo in the browser or to be embedded in another webpage!
+My interpretation of a Biblical Hebrew calendar. Designed to work solo in the browser or to be embedded in another webpage! [Click here to check it out online](https://r-neal-kelly.github.io/mary_calendar/).
 
 ## Features: 
 - Sabbaths and Feast Days
