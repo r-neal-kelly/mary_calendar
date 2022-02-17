@@ -46,10 +46,10 @@ My interpretation of a Biblical Hebrew calendar. Designed to work solo in the br
 - Besides the options that are in the settings, you can also configure the JavaScript manually by changing the values in the "config" object near the top of MaryCalendar.js 
 
 ### Save:
+- All notes and settings are automatically saved in your local browser data.
+- In addition you can make a backup of your notes by going to the bottom right button labeled 'S' (for settings), the 'more' tab and then clicking the 'backup' button at the bottom, and then the 'download' link. You can also restore your notes with the resultant text file here.
 - Enabled cookies allows for the preferred saving method: HTML5 Local Storage. But if the browser doesn't have local storage, MaryCalendar will still try to save settings with cookies, however not any notes. This is due to cookie-size constraints on some browsers. Saving can be completely disabled in the config, or by turning off cookies altogether.
 - If you want to see what MaryCalendar is storing, open the browser's console and type in "localStorage" and/or "document.cookie". It uses the prefix "MaryCalendar_" for all variables.
-
-### Recover Notes:
 - During testing, I encountered a rare bug that ended up with me not being able to access any of my notes. The bug is fixed now, but should there ever be any difficulty getting to your notes in MaryCalendar, you can copy and paste the following code into your browser's console while the current web page containing it is open. (To access the console try hitting 'F12' on your keyboard or looking in the options menu. Mobile generally doesn't allow access to the console, so try this on desktop/laptop.)
     ```
     (function getNotes() {
@@ -64,7 +64,7 @@ My interpretation of a Biblical Hebrew calendar. Designed to work solo in the br
         .replace(/\n/g, "\n\n");
     }());
     ```
-- Now you can copy your notes and save them in any text editor. Make sure to leave out any quotes next to the '{' and '}' symbols. After resetting the calendar, you can try restoring your notes normally. 
+    Now you can copy your notes and save them in any text editor. Make sure to leave out any quotes next to the '{' and '}' symbols. After resetting the calendar, you can try restoring your notes normally. 
 
 ## (א) Inspiration from the Scripture (ת)
 
