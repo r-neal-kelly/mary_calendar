@@ -1,0 +1,25 @@
+---MaryCalendar version 1.0.0---
+
+I believe this program is pretty much finished at this point. I've updated the license and changed the top level read me to be easier to understand and takes better advantage of markdown.
+
+---MaryCalendar version 0.1.2 aleph---
+
+Added more equinoxes.
+
+---MaryCalendar version 0.1.1 aleph---
+
+reorganized src folder and updated merge.hs
+
+did some minor code clean-up
+
+created a dedicated readme folder.
+
+updated readme with info on how to view what MaryCalendar is storing
+
+uploaded src to github
+
+started change-log
+
+---MaryCalendar version 0.1.0 aleph---
+
+first release!!!
